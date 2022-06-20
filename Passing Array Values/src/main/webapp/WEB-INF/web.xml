@@ -84,4 +84,14 @@
     <servlet-name>aa</servlet-name>
     <url-pattern>/aa</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>JSPServletJSP</display-name>
+    <servlet-name>JSPServletJSP</servlet-name>
+    <servlet-class>com.Pasing.Operation.JSPServletJSP</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JSPServletJSP</servlet-name>
+    <url-pattern>/JSPServletJSP</url-pattern>
+  </servlet-mapping>
 </web-app>

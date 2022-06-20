@@ -13,7 +13,6 @@ function  CallServlet(methodType){
 	document.getElementById("Form").method = methodType;
 	document.getElementById("Form").submit();
 } 
-
 </script>
 <body>
 
